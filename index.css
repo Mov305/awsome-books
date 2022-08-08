@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100vh;
+  justify-content: space-between;
+  overflow: hidden;
+  font-size: larger;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid black;
+  width: calc(100% - 20px);
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+#date {
+  position: fixed;
+  top: 10vh;
+  right: 5vw;
+}
+
+#navList {
+  display: flex;
+  list-style-type: none;
+}
+
+#navList > li {
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+#sec1 ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#navList > li:nth-child(n + 2) {
+  border-left: 1px solid black;
+}
+
+#navList > li:hover {
+  color: gray;
+}
+
+#sec1 ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  width: 40vw;
+}
+
+#sec1 ul li:nth-child(2n) {
+  background-color: rgb(184, 184, 184);
+}
+
+ul li button {
+  padding: 5px;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 3px 4px black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center;
+}
+
+form input {
+  border: 3px solid black;
+  width: 20vw;
+  height: 40px;
+}
+
+.form-button {
+  width: 10vw;
+  height: 40px;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 3px 4px black;
+}
+
+footer {
+  display: flex;
+  border: 3px solid black;
+  width: calc(100% - 20px);
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  color: blue;
+}
+
+#sec3 h2 {
+  margin: 30px;
+}
+
+#sec3 p {
+  margin: 20px;
+}
+
+#sec3 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
