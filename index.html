@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Libr</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <nav>
+      <h4>Awosome Books</h4>
+      <ul id="navList">
+        <li class="active">List</li>
+        <li>Add new</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <main>
+      <section id="sec1" class="">
+        <h1>Awesome Books</h1>
+        <ul id="listOfBooks"></ul>
+      </section>
+      <span id="date">asdfasdf</span>
+      <section id="sec2" class="hidden">
+        <form action="#">
+          <h2>Add a Book</h2>
+          <br />
+          <input type="text" id="bookTitle" placeholder="Title" />
+          <br />
+          <input type="text" id="bookAuthor" placeholder="Author" />
+          <br />
+          <button class="form-button" id="addButton" type="button">Add</button>
+        </form>
+      </section>
+      <section id="sec3" class="hidden">
+          <h2>Contact information</h2>
+          <p>Do you have any questions or you just want to say "Hello"!
+            <br>
+            You can reach out to us!.
+          </p>
+          <ul>
+            <li>Our e-mail: example@google.com</li>
+            <li>Our phone number: +102930940340</li>
+            <li>Our address: street name 22, 8498 City, Country</li>
+          </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Copyrights  <span>...</span> </p>
+    </footer>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

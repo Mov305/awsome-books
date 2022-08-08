@@ -14,6 +14,7 @@ Visual Studio Code
 HTML
 CSS
 Javascript
+luxon
 
 ## Getting Started
 
@@ -29,9 +30,8 @@ To get a local copy up and running follow these simple example steps.
 ## Author
 
 GitHub:
-[@sntgopl](https://github.com/sntgopl)
 [@Mov305](https://github.com/Mov305)
-Linkedin: Santiago Pons Lezica & Abdelrhman samy
+Linkedin: Abdelrhman samy
 
 ## Contributing
 
